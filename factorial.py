@@ -5,10 +5,23 @@ def factorial(n):
     return counter
 
 
-print(factorial(1))
-print(factorial(4))
-print(factorial(5))
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+
+# --------------------------------------------
+
+
+# def factorial(n):
+#     if n == 0:
+#         return 1
+#     return n * factorial(n - 1)
 
 
 # Time Complexity: O(n)
-# Space Complexity: O(1)
+# Space Complexity: O(n)
+
+
+print(factorial(1))
+print(factorial(4))
+print(factorial(5))
