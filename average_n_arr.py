@@ -5,13 +5,22 @@
 #         total += arr[i]
 #     return total / len(arr)
 
+# Best solution
 
 # Without using indexes
 def find_avg(arr):
     total = 0
-    for i in arr:
-        total += i
+    for num in arr:
+        total += num
     return total / len(arr)
+
+
+# With enumerate
+# def find_avg(arr):
+#     total = 0
+#     for i, num in enumerate(arr):
+#         total += num
+#     return total / len(arr)
 
 
 print(find_avg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
