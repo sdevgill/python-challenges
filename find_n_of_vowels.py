@@ -1,7 +1,7 @@
 def count_vowels(str):
     counter = 0
     lower_str = str.lower()
-    for i in range(len(lower_str) - 1):
+    for i in range(len(lower_str)):
         char = lower_str[i]
         if char == "a" or char == "e" or char == "i" or char == "o" or char == "u":
             counter += 1
