@@ -22,6 +22,8 @@ def find_avg(arr):
 #         total += num
 #     return total / len(arr)
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 print(find_avg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 print(find_avg([2, 4, 6, 8, 10]))
